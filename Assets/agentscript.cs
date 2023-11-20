@@ -17,6 +17,14 @@ public class agentscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        agent.destination = goal.position;
+        animator.SetFloat("Speed_f", agent.velocity.magnitude);
+
+
+
+
+
         
     }
 }
