@@ -12,7 +12,7 @@ public class movescript : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Update is called once per framellll
     void Update()
     {
         float x = Input.GetAxis("Horizontal");
