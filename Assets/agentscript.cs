@@ -1,30 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class agentscript : MonoBehaviour
 {
-    public NavMeshAgent navmeshagent;
+    NavMeshAgent agent;
     public Animator animator;
     public Transform goal;
+    bool isDead = false;
+    
+
     // Start is called before the first frame update
     void Start()
     {
+        agent = GetComponent<NavMeshAgent>();
+       
+
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        NavMeshAgent agent = GetComponent<NavMeshAgent>();
-        agent.destination = goal.position;
-        animator.SetFloat("Speed_f", agent.velocity.magnitude);
-
-
-
-
-
         
+        agent.destination = goal.position;
+
+        if(isDead == false)
+        {
+            animator.SetFloat("Speed_f", agent.velocity.magnitude);
+        }
+
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "bullet")
+        {
+            animator.SetInteger("DeathType_int", 1);
+            animator.SetBool("Death_b", true);
+            isDead = true;
+            agent.speed = 0;
+            
+        }
     }
 }
