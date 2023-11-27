@@ -34,6 +34,10 @@ public class agentscript : MonoBehaviour
         {
             animator.SetFloat("Speed_f", agent.velocity.magnitude);
         }
+        if(isDead == true)
+        {
+            
+        }
 
     }
     private void OnTriggerEnter(Collider other)
