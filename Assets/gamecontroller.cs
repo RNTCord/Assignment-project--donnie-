@@ -31,13 +31,13 @@ public class gamecontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+       // if (Input.GetKeyDown(KeyCode.W))
         {
-            playerscore += 10;
+            //playerscore += 10;
         }
-        if (Input.GetKeyDown(KeyCode.S))
+       // if (Input.GetKeyDown(KeyCode.S))
         {
-            playerhealth -= 10;
+            //playerhealth -= 10;
         }
 
 
