@@ -11,6 +11,8 @@ public class agentscript : MonoBehaviour
     public Animator animator;
     public Transform goal;
     bool isDead = false;
+
+    public gamecontroller gameController;
     
 
     // Start is called before the first frame update
@@ -38,10 +40,15 @@ public class agentscript : MonoBehaviour
     {
         if(other.tag == "bullet")
         {
+
+            gameController.AddScore(10);
+
             animator.SetInteger("DeathType_int", 1);
             animator.SetBool("Death_b", true);
             isDead = true;
             agent.speed = 0;
+
+           
             
         }
     }

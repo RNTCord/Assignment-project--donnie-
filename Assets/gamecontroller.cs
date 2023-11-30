@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class gamecontroller : MonoBehaviour
 {  
@@ -17,6 +18,7 @@ public class gamecontroller : MonoBehaviour
     public Text leveltext;
 
     private int playerscore = 0;
+    private int score = 0;
     private float playerhealth = 100.0f;
     private int playerlevel = 0;
 
@@ -40,8 +42,8 @@ public class gamecontroller : MonoBehaviour
             //playerhealth -= 10;
         }
 
-
-        scoretext.text = "Score: " + playerscore.ToString();
+        UpdateScore();
+        
         healthtext.text = "Health:" + playerhealth.ToString();
         leveltext.text = "Level:" + playerlevel.ToString();
 
@@ -74,6 +76,19 @@ public class gamecontroller : MonoBehaviour
         }
 
 
+        
+    }
 
+
+
+
+    public void AddScore(int score)
+    {
+        playerscore += score;
+    }
+
+    public void UpdateScore()
+    {
+        scoretext.text = "Score: " + playerscore.ToString();
     }
 }
