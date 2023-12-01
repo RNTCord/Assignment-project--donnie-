@@ -16,11 +16,15 @@ public class gamecontroller : MonoBehaviour
     public Text scoretext; // Reference to the Text element
     public Text healthtext;
     public Text leveltext;
+    public Slider Healthslider;
+    public float maxhealth = 100f;
+    public float health;
 
     private int playerscore = 0;
     private int score = 0;
     private float playerhealth = 100.0f;
     private int playerlevel = 0;
+    
 
     
     // Start is called before the first frame update
@@ -28,6 +32,7 @@ public class gamecontroller : MonoBehaviour
     {
         scoretext.text = "Score: " + playerscore;
         healthtext.text = "Health:" + playerhealth;
+        health = maxhealth;
     }
 
     // Update is called once per frame
@@ -74,7 +79,14 @@ public class gamecontroller : MonoBehaviour
         {
             Instantiate(sphere, sphereposition);
         }
-
+        if(Healthslider.value != health)
+        {
+            Healthslider.value = health;
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            takedamage(10);
+        }
 
         
     }
@@ -90,5 +102,9 @@ public class gamecontroller : MonoBehaviour
     public void UpdateScore()
     {
         scoretext.text = "Score: " + playerscore.ToString();
+    }
+    void takedamage(float damage)
+    {
+        health -= 10;
     }
 }

@@ -15,7 +15,7 @@ C:/Users/szekz/OneDrive/Documents/GitHub/Assignment-project--donnie-
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53208
+57425
 Successfully changed project path to: C:/Users/szekz/OneDrive/Documents/GitHub/Assignment-project--donnie-
 C:/Users/szekz/OneDrive/Documents/GitHub/Assignment-project--donnie-
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/szekz/OneDrive/Documents/GitHub/Assignment-project--donnie-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9832] Host "[IP] 192.168.1.122 [Port] 0 [Flags] 2 [Guid] 2534950106 [EditorId] 2534950106 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3LP5VO9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10076] Host "[IP] 192.168.1.122 [Port] 0 [Flags] 2 [Guid] 806758098 [EditorId] 806758098 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3LP5VO9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9832] Host "[IP] 192.168.1.122 [Port] 0 [Flags] 2 [Guid] 2534950106 [EditorId] 2534950106 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3LP5VO9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10076] Host "[IP] 192.168.1.122 [Port] 0 [Flags] 2 [Guid] 806758098 [EditorId] 806758098 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3LP5VO9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 2313.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 421.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -71,44 +71,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.523237 seconds.
-- Loaded All Assemblies, in  6.850 seconds
+Registered in 0.086125 seconds.
+- Loaded All Assemblies, in  1.749 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.602 seconds
-Domain Reload Profiling: 7445ms
-	BeginReloadAssembly (5078ms)
+- Finished resetting the current domain, in  0.344 seconds
+Domain Reload Profiling: 2088ms
+	BeginReloadAssembly (1066ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (84ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (73ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (807ms)
-	LoadAllAssembliesAndSetupDomain (852ms)
-		LoadAssemblies (5069ms)
+	initialDomainReloadingComplete (200ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (1057ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (848ms)
-			TypeCache.Refresh (845ms)
-				TypeCache.ScanAssembly (819ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (603ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (380ms)
+				TypeCache.ScanAssembly (344ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (345ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (465ms)
+		SetupLoadedEditorAssemblies (275ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (15ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (302ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,56 +116,56 @@ Domain Reload Profiling: 7445ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 23.371 seconds
-Refreshing native plugins compatible for Editor in 88.38 ms, found 3 plugins.
+- Loaded All Assemblies, in 17.987 seconds
+Refreshing native plugins compatible for Editor in 8.87 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 18.671 seconds
-Domain Reload Profiling: 42049ms
-	BeginReloadAssembly (3074ms)
+- Finished resetting the current domain, in 10.970 seconds
+Domain Reload Profiling: 28955ms
+	BeginReloadAssembly (376ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (254ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (20150ms)
-		LoadAssemblies (20756ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (17384ms)
+		LoadAssemblies (12750ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2077ms)
-			TypeCache.Refresh (2018ms)
-				TypeCache.ScanAssembly (1193ms)
-			ScanForSourceGeneratedMonoScriptInfo (41ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (18685ms)
+		AnalyzeDomain (4846ms)
+			TypeCache.Refresh (4781ms)
+				TypeCache.ScanAssembly (417ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (10983ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (17328ms)
+		SetupLoadedEditorAssemblies (10547ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (667ms)
-			ProcessInitializeOnLoadAttributes (16347ms)
-			ProcessInitializeOnLoadMethodAttributes (229ms)
-			AfterProcessingInitializeOnLoad (69ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (10095ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
+			AfterProcessingInitializeOnLoad (32ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.05 seconds
-Refreshing native plugins compatible for Editor in 78.40 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.76 seconds
+Refreshing native plugins compatible for Editor in 12.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4803 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.8 MB). Loaded Objects now: 5276.
-Memory consumption went from 169.0 MB to 167.1 MB.
-Total: 6.717800 ms (FindLiveObjects: 0.514600 ms CreateObjectMapping: 0.396000 ms MarkObjects: 5.108100 ms  DeleteObjects: 0.697200 ms)
+Unloading 43 unused Assets / (1.1 MB). Loaded Objects now: 5280.
+Memory consumption went from 168.9 MB to 167.8 MB.
+Total: 21.283600 ms (FindLiveObjects: 1.261900 ms CreateObjectMapping: 0.457000 ms MarkObjects: 11.509400 ms  DeleteObjects: 8.053900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,123 +182,88 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 775335.480380 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver.prefab
+  artifactKey: Guid(b5c250cf857e87546bfae19a751f3c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver.prefab using Guid(b5c250cf857e87546bfae19a751f3c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f81a5c37a19241cdd7553adeaff07ec') in 3.119675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab
+  artifactKey: Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab using Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaf47a302cf24140eced608362c1dbf') in 2.356782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 218
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab
+  artifactKey: Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab using Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d39bf24848217e33e4dc47eba0e279') in 0.070742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab
+  artifactKey: Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab using Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e997f2daf518ee4748baf30b2cdb649') in 0.196130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 13.231 seconds
-Refreshing native plugins compatible for Editor in 7.13 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.986 seconds
+Refreshing native plugins compatible for Editor in 16.22 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 124.798 seconds
-Domain Reload Profiling: 138019ms
-	BeginReloadAssembly (2421ms)
+- Finished resetting the current domain, in 102.483 seconds
+Domain Reload Profiling: 104461ms
+	BeginReloadAssembly (215ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (10647ms)
-		LoadAssemblies (12931ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1643ms)
+		LoadAssemblies (1724ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (40ms)
-			TypeCache.Refresh (29ms)
+			TypeCache.Refresh (16ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (124799ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (102483ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1008ms)
+		SetupLoadedEditorAssemblies (714ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (211ms)
-			ProcessInitializeOnLoadAttributes (607ms)
-			ProcessInitializeOnLoadMethodAttributes (125ms)
-			AfterProcessingInitializeOnLoad (29ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 11.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 5279.
-Memory consumption went from 162.7 MB to 160.9 MB.
-Total: 6.236600 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.451900 ms MarkObjects: 4.909100 ms  DeleteObjects: 0.458300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 21.092 seconds
-Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 23.311 seconds
-Domain Reload Profiling: 44390ms
-	BeginReloadAssembly (7633ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (93ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (13277ms)
-		LoadAssemblies (20728ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (23311ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1247ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (289ms)
-			ProcessInitializeOnLoadAttributes (799ms)
-			ProcessInitializeOnLoadMethodAttributes (110ms)
-			AfterProcessingInitializeOnLoad (24ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4776 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (1.8 MB). Loaded Objects now: 5282.
-Memory consumption went from 162.7 MB to 160.9 MB.
-Total: 15.255300 ms (FindLiveObjects: 5.548800 ms CreateObjectMapping: 1.450000 ms MarkObjects: 7.825100 ms  DeleteObjects: 0.430100 ms)
+Unloading 4771 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.1 MB). Loaded Objects now: 5291.
+Memory consumption went from 166.8 MB to 165.8 MB.
+Total: 4.101800 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.382900 ms MarkObjects: 3.045900 ms  DeleteObjects: 0.292800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -317,519 +282,1216 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 607322.993049 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BeachBabe_Black.prefab
-  artifactKey: Guid(d714ac2c5f4f93d49b94880740d4e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BeachBabe_Black.prefab using Guid(d714ac2c5f4f93d49b94880740d4e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab43c0045024047196c88dcea520ce5') in 4.531213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BusinessMan_Brown.prefab
-  artifactKey: Guid(c14bb5ce28dbb7442a2f79d8b6a061ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BusinessMan_Brown.prefab using Guid(c14bb5ce28dbb7442a2f79d8b6a061ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff72021cd82c5a5f4178b5ee5d94b616') in 0.338533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Pimp_White.prefab
-  artifactKey: Guid(214bcce7f27c132428a1a8aba0ea371a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Pimp_White.prefab using Guid(214bcce7f27c132428a1a8aba0ea371a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62553ac35c7a68aa9955416aa2e50ec1') in 0.319545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/SimplePeople/SimplePeople
-  artifactKey: Guid(619168ea4de9efb4a9f45a661f1c6a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople using Guid(619168ea4de9efb4a9f45a661f1c6a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b70d40dfd63996051c11e51a890b02') in 0.001089 seconds
+  Time since last request: 3115.656997 seconds.
+  path: Assets/7th Side
+  artifactKey: Guid(e6900c26d0a689e438a27ae4671a3d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side using Guid(e6900c26d0a689e438a27ae4671a3d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec9b312464cb722f8fc98e7559850c5') in 0.104326 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Police_White.prefab
-  artifactKey: Guid(49e9a2b80e32aad49b1ea67be50a44ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Police_White.prefab using Guid(49e9a2b80e32aad49b1ea67be50a44ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dedb6359e1219226e498bd75635248a') in 0.199919 seconds
+  Time since last request: 4.613430 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack
+  artifactKey: Guid(bf417edd3dcfa524d94a5f21a0389147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack using Guid(bf417edd3dcfa524d94a5f21a0389147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61c99d820a8459a03d09106cefa9171') in 0.000903 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.942924 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs
+  artifactKey: Guid(1353f2227e8f22d4fa4f02b451d6dbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs using Guid(1353f2227e8f22d4fa4f02b451d6dbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e073e1091f436583c4bf27301ac94f24') in 0.000970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.988679 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls
+  artifactKey: Guid(08875b236ef66a74f8371e8fbfdc486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls using Guid(08875b236ef66a74f8371e8fbfdc486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d99f52093292924453e646a26a72579') in 0.018459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.160992 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Cropped Mini Wall.prefab
+  artifactKey: Guid(de9965ab6b3d5294b8e15dd28fe4d6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Cropped Mini Wall.prefab using Guid(de9965ab6b3d5294b8e15dd28fe4d6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff891dd72c58aae0d949fd517dfb707') in 1.375853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Outer Window.prefab
+  artifactKey: Guid(0b4e01b6b3d60db4d9c1a47ddc99f748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Outer Window.prefab using Guid(0b4e01b6b3d60db4d9c1a47ddc99f748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f190764e0c7a011374e2c66bb8ba5572') in 0.711788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RiotCop_White.prefab
-  artifactKey: Guid(4433cf75ba397654aa7fa86853e4fb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RiotCop_White.prefab using Guid(4433cf75ba397654aa7fa86853e4fb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fedaf309df5bd56f3645b130a39658') in 0.275742 seconds
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Windowed Wall.prefab
+  artifactKey: Guid(b0fbdb49b998fc743bea0eddec140218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Windowed Wall.prefab using Guid(b0fbdb49b998fc743bea0eddec140218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2e60c6ec3fb7202a2b307b17a8a065') in 0.182088 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 418
+Number of asset objects unloaded after import = 19
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Head.prefab
-  artifactKey: Guid(9e0ef2cf9cfc11c46bbe7f28b272f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Head.prefab using Guid(9e0ef2cf9cfc11c46bbe7f28b272f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6db6c66fda664b91fdb8eff74bd7122') in 0.042776 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Inner Wall Part.prefab
+  artifactKey: Guid(9da6f691888b85540ae49f589a0afca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Inner Wall Part.prefab using Guid(9da6f691888b85540ae49f589a0afca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a168a9a120cf60e2c5ad726a234a84') in 0.242709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Outer Windowed Wall.prefab
+  artifactKey: Guid(0df64e1ab2185ce4a98ff3c4c3d0fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Outer Windowed Wall.prefab using Guid(0df64e1ab2185ce4a98ff3c4c3d0fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac217dbfd2ed7298bbe86c9e0e62ad9') in 0.923820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Outer Wall Part.prefab
+  artifactKey: Guid(99b3b96557731624d8501cdad13a15dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Outer Wall Part.prefab using Guid(99b3b96557731624d8501cdad13a15dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcbc05142fd0c945514113f5f86bec7') in 0.159299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Inner Window.prefab
+  artifactKey: Guid(7fe259185b091624eb0c5e75d72051fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Inner Window.prefab using Guid(7fe259185b091624eb0c5e75d72051fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807ed9cbc1800da00502ce28e75fb950') in 0.074726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Mini Wall.prefab
+  artifactKey: Guid(89bba1995779329498168bad594db744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Mini Wall.prefab using Guid(89bba1995779329498168bad594db744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4445c0606859665e1683cc990018c7e2') in 0.226652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Outer Wall.prefab
+  artifactKey: Guid(effe80309842f47438a19977dddeb95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Outer Wall.prefab using Guid(effe80309842f47438a19977dddeb95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0605781926438f640f3d0833edee9d') in 0.066988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Full Outer Wall.prefab
+  artifactKey: Guid(55ab15d86f8e2874aa5d4e30d181045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Full Outer Wall.prefab using Guid(55ab15d86f8e2874aa5d4e30d181045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6d262673f952dc4db81f5cfc09d9d6') in 0.104456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Trim.prefab
+  artifactKey: Guid(f2fe5c85892e287419f9fa56ecff8207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Trim.prefab using Guid(f2fe5c85892e287419f9fa56ecff8207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3736120d25eff08bf5ae8ec1ecbc5a') in 0.117614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Full Inner Wall.prefab
+  artifactKey: Guid(acf3df6fa97346e489dca6ce9c745687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Walls/Full Inner Wall.prefab using Guid(acf3df6fa97346e489dca6ce9c745687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644fded701fbc389243b34a9e0732a96') in 0.175225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 150.210944 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials
+  artifactKey: Guid(063a21466dc4e804eb5d937d3d9ad672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials using Guid(063a21466dc4e804eb5d937d3d9ad672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a066ea9990217286609088e35e3a3c') in 0.001194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.119401 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Bars.mat
+  artifactKey: Guid(745bd829de7127e41be93ee5117f805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Bars.mat using Guid(745bd829de7127e41be93ee5117f805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cf6d8c1555a9f6c5b2a315b22f18be') in 0.938772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Walls.mat
+  artifactKey: Guid(7ea89303b5e4d9646b1b18a154bf02ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Walls.mat using Guid(7ea89303b5e4d9646b1b18a154bf02ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c75d631abea94f83fd6f51ee95ffb3') in 0.039796 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_FireFighter_White.prefab
-  artifactKey: Guid(c393539dfea106a45957b13acb445ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_FireFighter_White.prefab using Guid(c393539dfea106a45957b13acb445ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e4ed72582731800ea63ad6169a9115') in 0.182766 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Floor.mat
+  artifactKey: Guid(52a135d5ab2b2ff46aabce62ce729862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Floor.mat using Guid(52a135d5ab2b2ff46aabce62ce729862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15415662443d404fca1d0cc74e0e6566') in 0.492165 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RiotCop_Brown.prefab
-  artifactKey: Guid(a47f4fac3113f0d4bb65ea27d0dad0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RiotCop_Brown.prefab using Guid(a47f4fac3113f0d4bb65ea27d0dad0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc702edd8d414e4a023e88eaae954f05') in 0.244158 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Railing.mat
+  artifactKey: Guid(b2e82af8224815341b4e0927588ad817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Railing.mat using Guid(b2e82af8224815341b4e0927588ad817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c6ac991c16d0bc6777cb5f2a765ba5') in 0.018294 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 418
-========================================================================
-Received Import Request.
-  Time since last request: 0.000693 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RoadWorker_Black.prefab
-  artifactKey: Guid(3afad42cab5a57a4c9f19f8deaaf8689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RoadWorker_Black.prefab using Guid(3afad42cab5a57a4c9f19f8deaaf8689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb80fb341e824bffcdb24fbb4cc84ba') in 0.241402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_FireFighter_Black.prefab
-  artifactKey: Guid(888c7e05ee7700c46a52b3daf2eacbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_FireFighter_Black.prefab using Guid(888c7e05ee7700c46a52b3daf2eacbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f3488faf67a1a8d864c1bb511fdd94') in 0.185182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_HouseWife_White.prefab
-  artifactKey: Guid(77e9faacde0433743bfa9fab4585a2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_HouseWife_White.prefab using Guid(77e9faacde0433743bfa9fab4585a2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015875d2b45d11b5cf58bba5939de6fd') in 0.211018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs
-  artifactKey: Guid(a66a8e4910e4fb641884f19ac3d4635b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs using Guid(a66a8e4910e4fb641884f19ac3d4635b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dad5dfd619fcba32a066b4bfeadad7d') in 0.001353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/SimplePeople
-  artifactKey: Guid(67503e8f4f5f7a245a0c6698e67c2912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople using Guid(67503e8f4f5f7a245a0c6698e67c2912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844eaa3dc7c7138d2f6dc5e8cc401e7a') in 0.000766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Prostitute_White.prefab
-  artifactKey: Guid(0d98918798ca2404b9b060a460199585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Prostitute_White.prefab using Guid(0d98918798ca2404b9b060a460199585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923b521adabbc9f0af53daafc113fed8') in 1.796743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 420
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Robber_White.prefab
-  artifactKey: Guid(adf423a4c68c0e44fad04688a734f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Robber_White.prefab using Guid(adf423a4c68c0e44fad04688a734f947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2d0c047c66a4fc42edff526777d755') in 2.357908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 675
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000042 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_StreetMan_Brown.prefab
-  artifactKey: Guid(973da52f37faff44fbaa2270c9c5ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_StreetMan_Brown.prefab using Guid(973da52f37faff44fbaa2270c9c5ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a79d450d0d7c2eaa2e99167a4c8595') in 0.193515 seconds
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs Main.mat
+  artifactKey: Guid(0123a2565aceac442ace8e799d9ddae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs Main.mat using Guid(0123a2565aceac442ace8e799d9ddae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06da57396c49286c97f078aa2f0131f') in 0.450736 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RiotCop_Black.prefab
-  artifactKey: Guid(8c4ecd5eb192f5e4ba4c6d129aa1f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RiotCop_Black.prefab using Guid(8c4ecd5eb192f5e4ba4c6d129aa1f2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84576d5bc7757a783dc52cc9a13794e') in 0.250594 seconds
+  Time since last request: 0.000130 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door.mat
+  artifactKey: Guid(088bc9f0e91bea84e8e2c508863836bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door.mat using Guid(088bc9f0e91bea84e8e2c508863836bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6000aa399b2c2f1f7fc1b47e73953b8') in 0.437802 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 418
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BusinessMan_White.prefab
-  artifactKey: Guid(b186f9485a0828b468f98fe846ae1a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BusinessMan_White.prefab using Guid(b186f9485a0828b468f98fe846ae1a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d09fae896e8157835547039c950649') in 0.138589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Prostitute_Black.prefab
-  artifactKey: Guid(495fcda5377a879408fba3c2f456e8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Prostitute_Black.prefab using Guid(495fcda5377a879408fba3c2f456e8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53abb22c8d5630bb1ba6f9a79e8e1b4e') in 0.358339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 422
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Head.prefab
-  artifactKey: Guid(65c9f6563c561ee4e8905d1e6a32548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/45ACP Bullet_Head.prefab using Guid(65c9f6563c561ee4e8905d1e6a32548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5a02ea2830078f3c953e51c862f5c7') in 0.050881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BeachBabe_Brown.prefab
-  artifactKey: Guid(40ed268e2df0a394ca090fe991bf3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BeachBabe_Brown.prefab using Guid(40ed268e2df0a394ca090fe991bf3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036f7e03530cf0addccd8d3541f5ebc6') in 0.253414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SimplePeople/SimplePeople/Models/SimplePeople.fbx
-  artifactKey: Guid(c72c97e952bf7834b85e6164373d310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Models/SimplePeople.fbx using Guid(c72c97e952bf7834b85e6164373d310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd568fa9e219f32db172622849dde64bf') in 0.737531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 106
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_HouseWife_Brown.prefab
-  artifactKey: Guid(ea966a6c6626547479c4d8c7b7a4ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_HouseWife_Brown.prefab using Guid(ea966a6c6626547479c4d8c7b7a4ab8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c54dff563a3b216892c17949f5ce13a') in 0.269761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Prostitute_Brown.prefab
-  artifactKey: Guid(a55a5eaeb8f927a449967b5a27fd8e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Prostitute_Brown.prefab using Guid(a55a5eaeb8f927a449967b5a27fd8e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8025c82832503f68dc7790b9b9bd5a') in 0.291506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 422
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Robber_Brown.prefab
-  artifactKey: Guid(76141ce09f31e0f43acb603244bea2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Robber_Brown.prefab using Guid(76141ce09f31e0f43acb603244bea2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5528004a8450cefa15e2d6d1e5f76e17') in 0.147769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 420
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Waitress_Black.prefab
-  artifactKey: Guid(20847b8e912bc604b99e748a676d067b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Waitress_Black.prefab using Guid(20847b8e912bc604b99e748a676d067b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f15e2b88203ec48dbfe99627bf0247b') in 0.199197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Sheriff_White.prefab
-  artifactKey: Guid(56eecb6027ff58d46b9b8045ce2f5b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Sheriff_White.prefab using Guid(56eecb6027ff58d46b9b8045ce2f5b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c284f9e3a6e77a339c1c4fdb8df74e') in 0.154340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 418
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Pimp_Brown.prefab
-  artifactKey: Guid(ddd740d46a8a6eb4399573a9f3d4b2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Pimp_Brown.prefab using Guid(ddd740d46a8a6eb4399573a9f3d4b2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0708a95e204a0954d850b0719be8201') in 0.257126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Hobo_Black.prefab
-  artifactKey: Guid(595794b9a4c7b884a93afc538ea183fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Hobo_Black.prefab using Guid(595794b9a4c7b884a93afc538ea183fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b696a9d7f603a2cfebebf848ddc0b83') in 0.210182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Trucker_White.prefab
-  artifactKey: Guid(c2a7d1e33078b94448f5c853a1b8da65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Trucker_White.prefab using Guid(c2a7d1e33078b94448f5c853a1b8da65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622215d6bbc68726b63a974b0542dd4d') in 0.234855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Waitress_Brown.prefab
-  artifactKey: Guid(882e87ba7c26a9d47a4f001002357e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Waitress_Brown.prefab using Guid(882e87ba7c26a9d47a4f001002357e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469b8862f0ac944cc1c009b8f7561bc6') in 0.234829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Doctor_White.prefab
-  artifactKey: Guid(d70170446aa035f40a2429d04ab83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Doctor_White.prefab using Guid(d70170446aa035f40a2429d04ab83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791b37d8702715af398363ad9fab3d20') in 0.240618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Hobo_White.prefab
-  artifactKey: Guid(3386efbe8e8a9664bbf5138fd2748628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Hobo_White.prefab using Guid(3386efbe8e8a9664bbf5138fd2748628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730c8bbe38c981ee154fe1f915c50f35') in 0.191228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Punk_Black.prefab
-  artifactKey: Guid(fe32ce89f99911a478ea9e6736294382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Punk_Black.prefab using Guid(fe32ce89f99911a478ea9e6736294382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2428a42d9c0e1617d92b31fc00c4cd5d') in 0.211848 seconds
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs Handrail.mat
+  artifactKey: Guid(ce87ce28fb9eff541a817d0c3065d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs Handrail.mat using Guid(ce87ce28fb9eff541a817d0c3065d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea212590949b07c0081a90c6c3331b9') in 0.412167 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Punk_Brown.prefab
-  artifactKey: Guid(4a7c3ad7168bb834b87a91e3f94ad3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Punk_Brown.prefab using Guid(4a7c3ad7168bb834b87a91e3f94ad3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df680076997ee9d045fff475118414cc') in 0.241448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_StreetMan_White.prefab
-  artifactKey: Guid(f7add824fb57e364fbcce172770a83bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_StreetMan_White.prefab using Guid(f7add824fb57e364fbcce172770a83bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb77d827669016195fd13612c84f2260') in 0.320825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Hobo_Brown.prefab
-  artifactKey: Guid(acc9d8a2d2f9d574885908fdfe7fde10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Hobo_Brown.prefab using Guid(acc9d8a2d2f9d574885908fdfe7fde10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167649ff91ae529ff79a502ddf7d8fa4') in 0.126456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Punk_White.prefab
-  artifactKey: Guid(f147a01ef442b2345a3546109476c690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Punk_White.prefab using Guid(f147a01ef442b2345a3546109476c690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9cdff4c4b3d688b62d8894338e153e') in 0.198390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_HouseWife_Black.prefab
-  artifactKey: Guid(da2c75d1eb537d343a12a9d832f28807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_HouseWife_Black.prefab using Guid(da2c75d1eb537d343a12a9d832f28807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c7c08d29271b0fe37f2c7961ace73e') in 0.283478 seconds
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Torch.mat
+  artifactKey: Guid(7cc286dcb6489c34e9e3d2e072d573a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Torch.mat using Guid(7cc286dcb6489c34e9e3d2e072d573a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd0b8e33cd615b6106e587fcdbae8ec') in 0.475784 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Police_Black.prefab
-  artifactKey: Guid(4f2d47505ddfc604a9f702e0599aa2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Police_Black.prefab using Guid(4f2d47505ddfc604a9f702e0599aa2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de7cbbb407588b635018003237071d3') in 0.246285 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Pillar.mat
+  artifactKey: Guid(a156c9fe37fdc3d4dafef11e25126f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Pillar.mat using Guid(a156c9fe37fdc3d4dafef11e25126f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f231b83ac9e60a664c12eee0efb45d') in 0.046129 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_FireFighter_Brown.prefab
-  artifactKey: Guid(48d0e91c5bec22942b8ccea02fa05f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_FireFighter_Brown.prefab using Guid(48d0e91c5bec22942b8ccea02fa05f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616dbf0cc3e84f328d603722c8578992') in 0.240607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RoadWorker_Brown.prefab
-  artifactKey: Guid(70ab0d3e71b54ac4bbd703cb0a686c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RoadWorker_Brown.prefab using Guid(70ab0d3e71b54ac4bbd703cb0a686c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da15bb8a5d2bc6c1fed6c97e3e801fb') in 0.217364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Trucker_Black.prefab
-  artifactKey: Guid(83fbe18e5570dd643bd5ec438484c2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Trucker_Black.prefab using Guid(83fbe18e5570dd643bd5ec438484c2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ed2fcbaa2c6df4acafceb7cb0abe2b') in 0.225817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Trucker_Brown.prefab
-  artifactKey: Guid(1b21c8a9041c4ce4b851f8b993430976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Trucker_Brown.prefab using Guid(1b21c8a9041c4ce4b851f8b993430976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff526a994a7220ec318033ea1cf7a1f3') in 0.252942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BeachBabe_White.prefab
-  artifactKey: Guid(ab962cacf7f4cc64fa9cf9cd8f75c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BeachBabe_White.prefab using Guid(ab962cacf7f4cc64fa9cf9cd8f75c972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43c89c8292b24169bf92793339288f7') in 0.263591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BusinessMan_Black.prefab
-  artifactKey: Guid(2f8d00bf5057f624e949aef802595da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_BusinessMan_Black.prefab using Guid(2f8d00bf5057f624e949aef802595da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951b50d79184afd6827845c21f2fb283') in 0.208539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Waitress_White.prefab
-  artifactKey: Guid(fe520ce6663e67348a964bf7b4318e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Waitress_White.prefab using Guid(fe520ce6663e67348a964bf7b4318e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34459a1bf68ddf2658cbccc62ca16163') in 0.211527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Sheriff_Black.prefab
-  artifactKey: Guid(04bbc969ba1271d4295504ca3f510d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Sheriff_Black.prefab using Guid(04bbc969ba1271d4295504ca3f510d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8f58d3e104bd6b5845481dc4681212') in 0.263636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 418
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RoadWorker_White.prefab
-  artifactKey: Guid(0703a1849c2c89b4db4568688faf0c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_RoadWorker_White.prefab using Guid(0703a1849c2c89b4db4568688faf0c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbec73da9900b396e6de45dc0140416') in 0.228009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Pimp_Black.prefab
-  artifactKey: Guid(eaa87c0130c9b1f4ba9e270558d2e0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Pimp_Black.prefab using Guid(eaa87c0130c9b1f4ba9e270558d2e0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63fd00746b8525493bc325f58657aca') in 0.198754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Doctor_Black.prefab
-  artifactKey: Guid(03ffd135f81a3fb4cb6f2e6e944f979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Doctor_Black.prefab using Guid(03ffd135f81a3fb4cb6f2e6e944f979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f20bbc03bb6198e888c9719bf9476c3') in 0.135197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Police_Brown.prefab
-  artifactKey: Guid(6d9c488c3a71ac54bb7f42a32e6d3c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Police_Brown.prefab using Guid(6d9c488c3a71ac54bb7f42a32e6d3c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fd9e4da8cc6fa3b991f4d857940917') in 0.296291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Sheriff_Brown.prefab
-  artifactKey: Guid(5d39e79d23613634bb7d4085aba7f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Sheriff_Brown.prefab using Guid(5d39e79d23613634bb7d4085aba7f31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab099f1093207c4a877bee1aa7c7e4a') in 0.237620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 418
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/SimplePeople/SimplePeople/Models
-  artifactKey: Guid(a2729dd08c956d649a0bf672900691bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Models using Guid(a2729dd08c956d649a0bf672900691bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9dc5c1770e52ea012cc9a9081c4af4') in 0.001532 seconds
+  Time since last request: 0.191817 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Walls
+  artifactKey: Guid(03aa675f899143243adb79857c7a93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Walls using Guid(03aa675f899143243adb79857c7a93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb6deec5d6f7796460bab704fcdbc22') in 0.001024 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Robber_Black.prefab
-  artifactKey: Guid(d494053454742064a9b78ed357c16868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Robber_Black.prefab using Guid(d494053454742064a9b78ed357c16868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd7d7100c47db1f6abf75720d63a000') in 0.157486 seconds
+  Time since last request: 0.081232 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_AO.png
+  artifactKey: Guid(6a11da4b02c48a0499bee4a24360a473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_AO.png using Guid(6a11da4b02c48a0499bee4a24360a473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423c089a0d9f4bf51ef71b24ce9c5a17') in 0.253573 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 420
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_StreetMan_Black.prefab
-  artifactKey: Guid(9caa079f9beda554ca9e22d2337f14e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_StreetMan_Black.prefab using Guid(9caa079f9beda554ca9e22d2337f14e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262710d5b0dc044e148b40ffb42401b0') in 0.346237 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_Normal.png
+  artifactKey: Guid(730af0288ec25c648bb0eaf78bd9aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_Normal.png using Guid(730af0288ec25c648bb0eaf78bd9aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed017e94e19ebcf5adbe059bed90a4a7') in 0.122015 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 416
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Doctor_Brown.prefab
-  artifactKey: Guid(f19c9246d91b3d5488c65e0539de4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePeople/SimplePeople/Prefabs/SimplePeople_Doctor_Brown.prefab using Guid(f19c9246d91b3d5488c65e0539de4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0474c393c691451c4c42d7bfe7ebe365') in 0.176184 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_BaseColor.png
+  artifactKey: Guid(0bf37d6e16866174a9a75ad09a620a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_BaseColor.png using Guid(0bf37d6e16866174a9a75ad09a620a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138e4fcb8339d61486faa14b783d8eaa') in 0.044965 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_Height.png
+  artifactKey: Guid(c011f929a063005419eec507eea7d738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_Height.png using Guid(c011f929a063005419eec507eea7d738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353ca2b929aa5442e5137eab9fdfc9ca') in 0.062351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_MetallicSmoothness.png
+  artifactKey: Guid(71b82cce198f6524d95edc32292658e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Walls/Walls_MetallicSmoothness.png using Guid(71b82cce198f6524d95edc32292658e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4194ec12f75c2250f8b1d24a028f6dbd') in 0.065007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 77.431463 seconds.
+  path: Assets/7th Side/Samples
+  artifactKey: Guid(77d187bc8cfbe344ab2e8919e9d919e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Samples using Guid(77d187bc8cfbe344ab2e8919e9d919e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50d4e650f341462583a34a335d6a4c5') in 0.001055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.040878 seconds.
+  path: Assets/7th Side/Samples/Showcase
+  artifactKey: Guid(f50ceeeaf161a454c8ec9d688a94f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Samples/Showcase using Guid(f50ceeeaf161a454c8ec9d688a94f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a907ec30276f9d7b7ee60a8e111c3c1e') in 0.001210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.270524 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models
+  artifactKey: Guid(a483b2b9c8e091148992ae614640bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models using Guid(a483b2b9c8e091148992ae614640bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3404b6b4b08ab520bffa676f0d96d731') in 0.000874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.982001 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls
+  artifactKey: Guid(54661cb4d9769df44a06655662897fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls using Guid(54661cb4d9769df44a06655662897fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b793c798928de6f39bc73c37131a2b') in 0.004223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078239 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Cropped Mini Wall.fbx
+  artifactKey: Guid(28ab236b72e82a847afdf7422b220725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Cropped Mini Wall.fbx using Guid(28ab236b72e82a847afdf7422b220725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942f2c1fbcacbc24cff3fb9a85891799') in 0.185671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Full Inner Wall.fbx
+  artifactKey: Guid(8a08a6f6cc3a982489dad9e423c0dec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Full Inner Wall.fbx using Guid(8a08a6f6cc3a982489dad9e423c0dec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43653e5d6cfe6cd470005bb2f6c3239') in 0.073090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Inner Windowed Wall.fbx
+  artifactKey: Guid(c5e328fe4609a894eb132c42e33121f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Inner Windowed Wall.fbx using Guid(c5e328fe4609a894eb132c42e33121f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3471d5ffc1345c6a4d7ca2b58e1b72') in 0.122856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Full Outer Wall.fbx
+  artifactKey: Guid(29bd7d873f4d6e748a2242e03d677065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Full Outer Wall.fbx using Guid(29bd7d873f4d6e748a2242e03d677065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c897ef6be827c1802d6936bcb636d0cd') in 0.081215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Trim.fbx
+  artifactKey: Guid(73f8eba022e348647b9cb1f52b4cf662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Trim.fbx using Guid(73f8eba022e348647b9cb1f52b4cf662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f7902c4157826de52f6d89c1d9243b') in 0.078044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Outer Wall.fbx
+  artifactKey: Guid(08b48fbb56f8ab94391bd0885eb7a860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Outer Wall.fbx using Guid(08b48fbb56f8ab94391bd0885eb7a860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0453022d7a5d50752eaccc0ba1d545e7') in 0.081900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Windowed Wall.fbx
+  artifactKey: Guid(30ec94349ecf99243a09c062a25f0eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Windowed Wall.fbx using Guid(30ec94349ecf99243a09c062a25f0eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87e3815e33b48c10f63a90b45671fe4') in 0.142844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Inner Wall.fbx
+  artifactKey: Guid(cb7c5d4c8aa3f2a46b277e1f41529749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Inner Wall.fbx using Guid(cb7c5d4c8aa3f2a46b277e1f41529749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f589c6a9cda63ed7c8345121113dda3a') in 0.085525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Mini Wall.fbx
+  artifactKey: Guid(b24bff236146cd9429a3b5f2243fa84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Mini Wall.fbx using Guid(b24bff236146cd9429a3b5f2243fa84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e85d54f17e7dec76707f4c64294376f') in 0.051892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Outer Windowed Wall.fbx
+  artifactKey: Guid(ce4d3f7d3900a3b45983e494dfd1d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Walls/Outer Windowed Wall.fbx using Guid(ce4d3f7d3900a3b45983e494dfd1d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7172f6b87201ba74faeeacaa136cd63b') in 0.086539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 7.424098 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Shaders
+  artifactKey: Guid(b0ea955fa5bd23343bf70b4a782c23a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Shaders using Guid(b0ea955fa5bd23343bf70b4a782c23a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ce06cad141164bc84af75e0daab36c') in 0.001436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.276187 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Animations
+  artifactKey: Guid(a6b84f56bff22e845ab707ba7587b3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Animations using Guid(a6b84f56bff22e845ab707ba7587b3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2305d8f8644f503a3cde753b84fe59d7') in 0.000986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 396.423141 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Stairs
+  artifactKey: Guid(5a0128b6cd2737c4bbb8f016cedca105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Stairs using Guid(5a0128b6cd2737c4bbb8f016cedca105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f51d31ca586d1bbebe43d35439ca1e7') in 0.009724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.152789 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Stairs/Double Handrail Stairs.prefab
+  artifactKey: Guid(96845744ce1eaa441a9292f16be1ffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Stairs/Double Handrail Stairs.prefab using Guid(96845744ce1eaa441a9292f16be1ffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdcf13e30bce946f122def53d61410f') in 0.687965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Stairs/Single Handrail Stairs.prefab
+  artifactKey: Guid(f144a0c5701117b49ad8bec1f9b01b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Stairs/Single Handrail Stairs.prefab using Guid(f144a0c5701117b49ad8bec1f9b01b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4023c6a9a582105a8a9e7263deffbf77') in 0.415141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 15.511388 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs
+  artifactKey: Guid(61cf6492ad25c2f40b4fa3b830a2b67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs using Guid(61cf6492ad25c2f40b4fa3b830a2b67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c197e7c8e93c4559c0face142b9e86') in 0.002520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Handrail_AO.png
+  artifactKey: Guid(9de7140b287b8af4cb4ee437b0c233ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Handrail_AO.png using Guid(9de7140b287b8af4cb4ee437b0c233ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea98940f3562e386b58c2f9cfae3747') in 0.025651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Handrail_BaseColor.png
+  artifactKey: Guid(b5897bb0b722bb14c8ae552103ce3f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Handrail_BaseColor.png using Guid(b5897bb0b722bb14c8ae552103ce3f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0671e53ccc2f18f61c40b90a4ab24bc') in 0.291862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Handrail_MetallicSmoothness.png
+  artifactKey: Guid(9785fcb267a69d7438f653afff6af9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Handrail_MetallicSmoothness.png using Guid(9785fcb267a69d7438f653afff6af9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238502620cd4a578543d65e67a8bf9b6') in 0.041031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Main_BaseColor.png
+  artifactKey: Guid(35080536ff9330442bdc0a95bd9c305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Main_BaseColor.png using Guid(35080536ff9330442bdc0a95bd9c305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e181330229f05fc5cdd86beb4b411c') in 0.152523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001439 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Main_MetallicSmoothness.png
+  artifactKey: Guid(5115893fbafcac44b8317bafeac6ba37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Main_MetallicSmoothness.png using Guid(5115893fbafcac44b8317bafeac6ba37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa07f6fee061f06c2ceaf32d00f3efa') in 0.149840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Main_AO.png
+  artifactKey: Guid(03f076e5cc8cfef4fa004f4183be0327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Main_AO.png using Guid(03f076e5cc8cfef4fa004f4183be0327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd809a296f2fced94dde12c6c6a14e8bc') in 0.130457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Handrail_Normal.png
+  artifactKey: Guid(5a3c056573e97e14c9dc2d3b31a81296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Handrail_Normal.png using Guid(5a3c056573e97e14c9dc2d3b31a81296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0e6c145fbadd2f774e98142790c29e') in 0.160428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Main_Normal.png
+  artifactKey: Guid(8d7b6f6275c3d944185eeb36de432c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Stairs/Stairs_Main_Normal.png using Guid(8d7b6f6275c3d944185eeb36de432c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7136d126a28434ae996b99564cac3d6a') in 0.069997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 82.968472 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Railings
+  artifactKey: Guid(cd3daafd08b39ea4e9185af5cee33eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Railings using Guid(cd3daafd08b39ea4e9185af5cee33eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32094e3cca9e92c89dfbc0b66079be10') in 0.003819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.171853 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Railings/Pillar.prefab
+  artifactKey: Guid(385dd344905006147a3d5a2f4154c05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Railings/Pillar.prefab using Guid(385dd344905006147a3d5a2f4154c05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407831ab3945d3501685a4ccf43c887a') in 0.171325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Railings/Railing.prefab
+  artifactKey: Guid(f59b16ffd0d2c1f42b69a0ad929ddffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Railings/Railing.prefab using Guid(f59b16ffd0d2c1f42b69a0ad929ddffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e178e6a5523f40a3913b548e1a48d3') in 0.059135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Railings/Short Railing.prefab
+  artifactKey: Guid(0bc4865a98590314d98f01bf894d95cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Railings/Short Railing.prefab using Guid(0bc4865a98590314d98f01bf894d95cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e34afc4d8d167b3e7f4885c6360c7d') in 0.074498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 28.020201 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Bars
+  artifactKey: Guid(71f1f5055750c2d45ba52c2e9b1510ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Bars using Guid(71f1f5055750c2d45ba52c2e9b1510ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10fc4c1d6f08f99e316debb7a3b9b90') in 0.001004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059818 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Bars/Bars_AO.png
+  artifactKey: Guid(e00b567cbed76a6418596d3ab67af4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Bars/Bars_AO.png using Guid(e00b567cbed76a6418596d3ab67af4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380d245232e685cc4e40f492aa99817') in 0.161084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Bars/Bars_BaseColor.png
+  artifactKey: Guid(01259a1df4708f84caca885416da2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Bars/Bars_BaseColor.png using Guid(01259a1df4708f84caca885416da2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90524ca0264f8e0aaf21f2aa186167a4') in 0.051520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Bars/Bars_MetallicSmoothness.png
+  artifactKey: Guid(81372c5133385194391a032fbb885f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Bars/Bars_MetallicSmoothness.png using Guid(81372c5133385194391a032fbb885f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac669f229fe009aa465c647cff5e9183') in 0.045777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Bars/Bars_Normal.png
+  artifactKey: Guid(6042223f71b2881499ae2aa706c2eddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Bars/Bars_Normal.png using Guid(6042223f71b2881499ae2aa706c2eddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a244cc0dd35293d1552644c179e7c2d') in 0.070766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.968579 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Props
+  artifactKey: Guid(61d25a50c168bb741893268c9c9c32d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Props using Guid(61d25a50c168bb741893268c9c9c32d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142bfac060113a8fb55aef319a1e7866') in 0.001687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078670 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Props/Burning Torch.prefab
+  artifactKey: Guid(0810f15247bf09840b6ad5de48a525b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Props/Burning Torch.prefab using Guid(0810f15247bf09840b6ad5de48a525b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72a174b4ee1984d51b9ac99bd04f62c') in 0.327912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Props/Torch.prefab
+  artifactKey: Guid(f0c98c9cf337dc948b89b21e25dcd6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Props/Torch.prefab using Guid(f0c98c9cf337dc948b89b21e25dcd6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995daba1d45ee8f2414e50817fadef73') in 0.077724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 39.295343 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/VFX/Torch Fire.vfx
+  artifactKey: Guid(885420f1f78ba9e49af57661d3784f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/VFX/Torch Fire.vfx using Guid(885420f1f78ba9e49af57661d3784f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bd76876a5e8eb66adfdb23707d32bd') in 0.003915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.387453 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors
+  artifactKey: Guid(e80360b423dc6dd4cbeb7626c254e16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors using Guid(e80360b423dc6dd4cbeb7626c254e16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfd385b5340a85f98c96d0270c0b1cf') in 0.001082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101955 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Double Sided Floor Tile.prefab
+  artifactKey: Guid(b36a73e6ee3cd4948ac17ac2d3134cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Double Sided Floor Tile.prefab using Guid(b36a73e6ee3cd4948ac17ac2d3134cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5936b4a51b6e3325d3ad0d2306d3fd7') in 0.122760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Double Sided Wide Floor Tile.prefab
+  artifactKey: Guid(7e2228df662778a499f85969f62a1333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Double Sided Wide Floor Tile.prefab using Guid(7e2228df662778a499f85969f62a1333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbba688e96d57530198077db48a6217d') in 0.110747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Small Floor Tile.prefab
+  artifactKey: Guid(fbbe09d33dc479540b9c609b6619909e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Small Floor Tile.prefab using Guid(fbbe09d33dc479540b9c609b6619909e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5aefed3f08e0807489ac3b09aa641c') in 0.040096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Floor Tile.prefab
+  artifactKey: Guid(44239f033dc918a469bf86cc1398f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Floor Tile.prefab using Guid(44239f033dc918a469bf86cc1398f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ae21dd62b7e84b5c05d9f8b225551c') in 0.031552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Double Sided Small Floor Tile.prefab
+  artifactKey: Guid(c667a08fb204ad04daf0b1fc3cba864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Double Sided Small Floor Tile.prefab using Guid(c667a08fb204ad04daf0b1fc3cba864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d35f50638d3e2db9f62cad773ce7eb') in 0.060233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000802 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Wide Floor Tile.prefab
+  artifactKey: Guid(8215513cf84b2e148bff8762825954f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Floors/Wide Floor Tile.prefab using Guid(8215513cf84b2e148bff8762825954f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1788d95198fda5689a5846e1cbbb07dc') in 0.049043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 25.828652 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Floor
+  artifactKey: Guid(ad418be2d1301a1489f17dc66b091d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Floor using Guid(ad418be2d1301a1489f17dc66b091d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8410f7cde3527624dd2077263ab220e') in 0.000990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043736 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_AO.png
+  artifactKey: Guid(2b6ea390f2e58774da34434083fdb3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_AO.png using Guid(2b6ea390f2e58774da34434083fdb3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d72fdcca47eb129e81d6e509050a33e') in 0.080207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_MetallicSmoothness.png
+  artifactKey: Guid(b5da5adca2710ed4983cd49b62d24f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_MetallicSmoothness.png using Guid(b5da5adca2710ed4983cd49b62d24f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99217a1740a9f6397c9e873fd4569cf9') in 0.058729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_BaseColor.png
+  artifactKey: Guid(3286dcbd07c4c4249a3537bd603d2ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_BaseColor.png using Guid(3286dcbd07c4c4249a3537bd603d2ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2fc586d0fcfea98eafe4176be6192e') in 0.055457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_Normal.png
+  artifactKey: Guid(de1f31959595bda4f9583b43dfd49d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_Normal.png using Guid(de1f31959595bda4f9583b43dfd49d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55af9478a6dba53007aa33ab633114f6') in 0.047150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_Height.png
+  artifactKey: Guid(9fe2be929bd52ed46ad8aeca8f35bc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Floor/Floor_Height.png using Guid(9fe2be929bd52ed46ad8aeca8f35bc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7aac98773892c966a9a17dfd5f5949') in 0.034814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 209.130656 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors
+  artifactKey: Guid(286171c8935c5404ab25c697ffc1446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors using Guid(286171c8935c5404ab25c697ffc1446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c015aa79bfcd79812c882f21fd3be2') in 0.001236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.117094 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Doorway.prefab
+  artifactKey: Guid(41b3c6540d4009a48afc54cfdb0ca5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Doorway.prefab using Guid(41b3c6540d4009a48afc54cfdb0ca5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68635d48edf6b43c80928098d84935d') in 0.295860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Sewer Gate.prefab
+  artifactKey: Guid(488bb3ba34dca3c4394fd0bfd6a827a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Sewer Gate.prefab using Guid(488bb3ba34dca3c4394fd0bfd6a827a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573d752cae0ed8df343c4baeba011566') in 0.148928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Wood Double Door.prefab
+  artifactKey: Guid(f1f129f5d6c7c9d49b8bff452d3546ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Wood Double Door.prefab using Guid(f1f129f5d6c7c9d49b8bff452d3546ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcf0ce83d3ad92b69b9a4b80cf24751') in 0.146287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.001494 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Double Doorway.prefab
+  artifactKey: Guid(3dfa799aea5f99846b46337da2c5a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Double Doorway.prefab using Guid(3dfa799aea5f99846b46337da2c5a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd3caca277a507a416e8e28806767f7') in 0.173235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Wood Door.prefab
+  artifactKey: Guid(e76f1b1bbb9345a4e8bc697153d59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Doors/Wood Door.prefab using Guid(e76f1b1bbb9345a4e8bc697153d59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e6adcb66870b50598c870f20a60ee8') in 0.081076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 14.032768 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door
+  artifactKey: Guid(09f43e77d40fb0945856c5ba4d606ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door using Guid(09f43e77d40fb0945856c5ba4d606ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae86660300d614a74e628481e192a0e') in 0.001192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.251586 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_AO.png
+  artifactKey: Guid(fa22017fd97f4ac40b557466b0fa2a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_AO.png using Guid(fa22017fd97f4ac40b557466b0fa2a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015068539e28ce4e3bd18d58ecf8b7e2') in 0.047685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_BaseColor.png
+  artifactKey: Guid(c76c0cdf9b2072c4bb95b91a1560c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_BaseColor.png using Guid(c76c0cdf9b2072c4bb95b91a1560c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d6d845a8ef01002ec28a57e52db215') in 0.049089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_Normal.png
+  artifactKey: Guid(c26c0ea272b526f4ab03b042247d3409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_Normal.png using Guid(c26c0ea272b526f4ab03b042247d3409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3ae45744c3c504fd0489ffc79be303') in 0.046768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_MetallicSmoothness.png
+  artifactKey: Guid(6c46d064388628746a516446896ac8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_MetallicSmoothness.png using Guid(6c46d064388628746a516446896ac8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7f03850cad4785602914c3e53b6043') in 0.063049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_Height.png
+  artifactKey: Guid(bbcfb14a176c24a4288f419c957a2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Wood Door_Height.png using Guid(bbcfb14a176c24a4288f419c957a2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b162c9d01a7813474e3de64228d526ca') in 0.076634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.146117 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials
+  artifactKey: Guid(ec473a09da071914c8734adee40ac8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials using Guid(ec473a09da071914c8734adee40ac8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c809e388a085535a7613b3a1f485f') in 0.001266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.070141 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_AO.mat
+  artifactKey: Guid(15ff11d0205db9948883dbea841a421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_AO.mat using Guid(15ff11d0205db9948883dbea841a421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fbde52809273d7db3ded363d7bb891') in 0.053842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_Normal.mat
+  artifactKey: Guid(3f5deb1b3f0c9204eacea863bd41dac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_Normal.mat using Guid(3f5deb1b3f0c9204eacea863bd41dac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12bace707efe898d65d985aa136d394') in 0.020370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_Height.mat
+  artifactKey: Guid(b0687d1cc68a61547abdd647b81ba5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_Height.mat using Guid(b0687d1cc68a61547abdd647b81ba5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b72592160841437b00973e56e8182b3') in 0.019797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_BaseColor.mat
+  artifactKey: Guid(21a6664a46d380348a73dd004879c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_BaseColor.mat using Guid(21a6664a46d380348a73dd004879c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce70f30bbc3b2d3774a53c840e0d4a41') in 0.019110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_MetallicSmoothness.mat
+  artifactKey: Guid(9ee7ce04a37c49d4790bf563d74a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Materials/Wood Door/Materials/Wood Door_MetallicSmoothness.mat using Guid(9ee7ce04a37c49d4790bf563d74a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eeb03f27425356f300b526dd2a9c6b') in 0.044976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.782377 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/VFX
+  artifactKey: Guid(156a65474d878414da4e57f3e618ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/VFX using Guid(156a65474d878414da4e57f3e618ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b988740ac0bb98cc138c422a9cbd42d4') in 0.001071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 366.131828 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners
+  artifactKey: Guid(7c77aa6bc79049447aba842a33afb27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners using Guid(7c77aa6bc79049447aba842a33afb27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543e04cdd21c2fa32ee8eee54d59e496') in 0.001107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062428 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Cropped Mini Corner.fbx
+  artifactKey: Guid(470904a7c38b9a44db1870efa340a821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Cropped Mini Corner.fbx using Guid(470904a7c38b9a44db1870efa340a821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bf003670d6c61730f6dfd6237448e1') in 0.087123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Full Inner Corner.fbx
+  artifactKey: Guid(af500446deb364d4faa3e194f797861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Full Inner Corner.fbx using Guid(af500446deb364d4faa3e194f797861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac728fd1e1758582ab59332d7024384') in 0.034357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Inner Corner Part A.fbx
+  artifactKey: Guid(ab223e26b25d591418edea34950b4ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Inner Corner Part A.fbx using Guid(ab223e26b25d591418edea34950b4ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b047255659ad2ffe7d8e8fcf1c00c63') in 0.046868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Full T-Corner.fbx
+  artifactKey: Guid(8f113acf5ec149e45a64d499bb30a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Full T-Corner.fbx using Guid(8f113acf5ec149e45a64d499bb30a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba7488bc5919c3d5731fce8a20b5023') in 0.027602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Outer Corner Part A.fbx
+  artifactKey: Guid(701251716bc802e4984622be5a7f39cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Outer Corner Part A.fbx using Guid(701251716bc802e4984622be5a7f39cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402721e2e3150ae6dcf812164e0108a6') in 0.026535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Large Outer End Cap.fbx
+  artifactKey: Guid(e1856a89e43fa394d84664fb4904689a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Large Outer End Cap.fbx using Guid(e1856a89e43fa394d84664fb4904689a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8825ef276ff0a9c13403024c6dcc57') in 0.027373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Small Inner End Cap.fbx
+  artifactKey: Guid(1abd3794c0a2b6b4e8c7aef116c55c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Small Inner End Cap.fbx using Guid(1abd3794c0a2b6b4e8c7aef116c55c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078a252f490593a10f4fa6314ace976f') in 0.053799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Small Outer End Cap.fbx
+  artifactKey: Guid(2d1d4039f76a14747bbfa7f17e165c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Small Outer End Cap.fbx using Guid(2d1d4039f76a14747bbfa7f17e165c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619cbbba94caed2287d2f975fc28f297') in 0.062600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Outer Corner Part B.fbx
+  artifactKey: Guid(4099c387499194f45aec195b3915de63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Outer Corner Part B.fbx using Guid(4099c387499194f45aec195b3915de63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb9422bf504ddec8bbd0c8cab90ebaa') in 0.052928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Full Outer Corner.fbx
+  artifactKey: Guid(e27737954a5c18b46ba73b432c23b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Full Outer Corner.fbx using Guid(e27737954a5c18b46ba73b432c23b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8f53a38ea9ed2d7fb8305724925be1') in 0.059545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Large Inner End Cap.fbx
+  artifactKey: Guid(98ab010dada4c8149a49fabbf2621fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Large Inner End Cap.fbx using Guid(98ab010dada4c8149a49fabbf2621fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e3fff0354cc02922d7b4de6ca55448') in 0.158215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/T-Corner Part.fbx
+  artifactKey: Guid(a3a7dc732edab9a44a9deb33f8f1b85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/T-Corner Part.fbx using Guid(a3a7dc732edab9a44a9deb33f8f1b85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec32bd749880b99e27d97f2b7d04942a') in 0.058344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/X-Corner.fbx
+  artifactKey: Guid(40355e812cba14b488806fba5360d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/X-Corner.fbx using Guid(40355e812cba14b488806fba5360d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8489a660650805326430d174d86fd21') in 0.051571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Inner Corner Part B.fbx
+  artifactKey: Guid(ac5e00236dbb3bf439f2d205ae963f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Corners/Inner Corner Part B.fbx using Guid(ac5e00236dbb3bf439f2d205ae963f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58383270ef36206b0c5df1b0888d0ea') in 0.065235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.873 seconds
-Refreshing native plugins compatible for Editor in 8.90 ms, found 3 plugins.
+- Loaded All Assemblies, in  6.318 seconds
+Refreshing native plugins compatible for Editor in 15.70 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.153 seconds
-Domain Reload Profiling: 5015ms
-	BeginReloadAssembly (230ms)
+- Finished resetting the current domain, in 89.612 seconds
+Domain Reload Profiling: 95913ms
+	BeginReloadAssembly (1559ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (789ms)
+	RebuildCommonClasses (156ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (4403ms)
+		LoadAssemblies (4895ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (89613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (36ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4771 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.1 MB). Loaded Objects now: 5333.
+Memory consumption went from 167.5 MB to 166.4 MB.
+Total: 53.379100 ms (FindLiveObjects: 0.695100 ms CreateObjectMapping: 0.575300 ms MarkObjects: 51.600900 ms  DeleteObjects: 0.506000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.951 seconds
+Refreshing native plugins compatible for Editor in 16.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.507 seconds
+Domain Reload Profiling: 7442ms
+	BeginReloadAssembly (661ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (127ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (988ms)
+		LoadAssemblies (1409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (5512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (935ms)
+			ProcessInitializeOnLoadMethodAttributes (211ms)
+			AfterProcessingInitializeOnLoad (48ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 16.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.1 MB). Loaded Objects now: 5336.
+Memory consumption went from 167.7 MB to 166.7 MB.
+Total: 11.259100 ms (FindLiveObjects: 0.691900 ms CreateObjectMapping: 0.595600 ms MarkObjects: 9.535300 ms  DeleteObjects: 0.434700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.068 seconds
+Refreshing native plugins compatible for Editor in 9.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.057 seconds
+Domain Reload Profiling: 6117ms
+	BeginReloadAssembly (313ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (523ms)
-		LoadAssemblies (629ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (768ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (5058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (878ms)
+			ProcessInitializeOnLoadMethodAttributes (197ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 18.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.1 MB). Loaded Objects now: 5339.
+Memory consumption went from 167.7 MB to 166.7 MB.
+Total: 10.149600 ms (FindLiveObjects: 0.815800 ms CreateObjectMapping: 0.578100 ms MarkObjects: 7.486000 ms  DeleteObjects: 1.265900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.824 seconds
+Refreshing native plugins compatible for Editor in 8.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.811 seconds
+Domain Reload Profiling: 5626ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (543ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (19ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (4154ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (4812ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1168ms)
+		SetupLoadedEditorAssemblies (1434ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (206ms)
-			ProcessInitializeOnLoadAttributes (700ms)
-			ProcessInitializeOnLoadMethodAttributes (175ms)
-			AfterProcessingInitializeOnLoad (40ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (270ms)
+			ProcessInitializeOnLoadAttributes (864ms)
+			ProcessInitializeOnLoadMethodAttributes (216ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 17.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4775 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (1.8 MB). Loaded Objects now: 5298.
-Memory consumption went from 169.5 MB to 167.7 MB.
-Total: 9.486100 ms (FindLiveObjects: 0.505500 ms CreateObjectMapping: 0.494600 ms MarkObjects: 6.303000 ms  DeleteObjects: 2.181700 ms)
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.1 MB). Loaded Objects now: 5342.
+Memory consumption went from 167.8 MB to 166.7 MB.
+Total: 6.386300 ms (FindLiveObjects: 0.927000 ms CreateObjectMapping: 0.500100 ms MarkObjects: 4.705200 ms  DeleteObjects: 0.252800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -849,54 +1511,558 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.771 seconds
-Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.819 seconds
+Refreshing native plugins compatible for Editor in 8.89 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.248 seconds
-Domain Reload Profiling: 6007ms
-	BeginReloadAssembly (247ms)
+- Finished resetting the current domain, in  4.827 seconds
+Domain Reload Profiling: 5635ms
+	BeginReloadAssembly (281ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (560ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (4828ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (283ms)
+			ProcessInitializeOnLoadAttributes (893ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (48ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 17.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.1 MB). Loaded Objects now: 5345.
+Memory consumption went from 167.8 MB to 166.7 MB.
+Total: 9.625300 ms (FindLiveObjects: 0.932900 ms CreateObjectMapping: 0.573400 ms MarkObjects: 7.751500 ms  DeleteObjects: 0.366100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4162.445111 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Columns
+  artifactKey: Guid(72da4a2ea0399484fa53e51a9ef1d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Columns using Guid(72da4a2ea0399484fa53e51a9ef1d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b447a9a6a782a0acc5a2323fad9f144') in 0.061024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013109 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Column.fbx
+  artifactKey: Guid(ebd3b2a9b8541d54dac71061673cd2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Column.fbx using Guid(ebd3b2a9b8541d54dac71061673cd2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92a4bf653dfc98dcc5868c4691f94a7') in 0.818446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Mini Column.fbx
+  artifactKey: Guid(f462e7dca94a194499f37e23eace0ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Mini Column.fbx using Guid(f462e7dca94a194499f37e23eace0ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfa214f68d6912899ac717ad068c25a') in 0.144277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Cropped Mini Column.fbx
+  artifactKey: Guid(a2e480d40a04b8048ad9acfbf6f74db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Cropped Mini Column.fbx using Guid(a2e480d40a04b8048ad9acfbf6f74db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b9a642ca71edb3187502b0b882609e') in 0.084721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Small Concrete Block.fbx
+  artifactKey: Guid(95b22734641380f4ebb0ac19c7152053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Small Concrete Block.fbx using Guid(95b22734641380f4ebb0ac19c7152053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f316cc2910ff573628b81a57a19f058e') in 0.241448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Concrete Block.fbx
+  artifactKey: Guid(4707c80782587a34196f360c6fdc3c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Models/Columns/Concrete Block.fbx using Guid(4707c80782587a34196f360c6fdc3c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c66eaa2c5c5246270d99b04b45aa9a8') in 0.058920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6.795477 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Bars
+  artifactKey: Guid(4290fe23935ee784fb42a06316a455a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Bars using Guid(4290fe23935ee784fb42a06316a455a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d03cc4ea354f8e0e824cee826028b34') in 0.001051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079406 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Bars/Barred Door.prefab
+  artifactKey: Guid(57b8e3425f075924e8c2162dec62bf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Bars/Barred Door.prefab using Guid(57b8e3425f075924e8c2162dec62bf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2cad3c93b6fe7e5284d66dc3f54f24') in 0.539169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Bars/Short Bars.prefab
+  artifactKey: Guid(853d11c21b027ee43b84413017d09044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Bars/Short Bars.prefab using Guid(853d11c21b027ee43b84413017d09044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e64358d88e9ad1225561046f6ab7a14') in 0.086481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/7th Side/Modular Prison Asset Pack/Prefabs/Bars/Bars.prefab
+  artifactKey: Guid(ccc7b9bbfee24b1428e135505aa54153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7th Side/Modular Prison Asset Pack/Prefabs/Bars/Bars.prefab using Guid(ccc7b9bbfee24b1428e135505aa54153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8702ff740006eb8c17d462927815c25') in 0.142786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 265.017388 seconds.
+  path: Assets/Objects and materials/SKy.mat
+  artifactKey: Guid(44afe229263ab234187b0c4f71445188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects and materials/SKy.mat using Guid(44afe229263ab234187b0c4f71445188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea5e1a4c7c055ac1c41ea7d9964601f') in 0.186141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.822 seconds
+Refreshing native plugins compatible for Editor in 6.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 391.723 seconds
+Domain Reload Profiling: 402538ms
+	BeginReloadAssembly (407ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (524ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (10295ms)
+		LoadAssemblies (8872ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (1723ms)
+			TypeCache.Refresh (1516ms)
+				TypeCache.ScanAssembly (34ms)
+			ScanForSourceGeneratedMonoScriptInfo (196ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (391724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (850ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 50.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4904 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (4.5 MB). Loaded Objects now: 5442.
+Memory consumption went from 180.6 MB to 176.1 MB.
+Total: 66.925100 ms (FindLiveObjects: 0.769900 ms CreateObjectMapping: 0.892700 ms MarkObjects: 63.255800 ms  DeleteObjects: 2.005300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.159 seconds
+Refreshing native plugins compatible for Editor in 12.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 19.075 seconds
+Domain Reload Profiling: 24220ms
+	BeginReloadAssembly (1529ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (3420ms)
+		LoadAssemblies (3869ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (919ms)
+			TypeCache.Refresh (853ms)
+				TypeCache.ScanAssembly (305ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (19077ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (890ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4905 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (4.5 MB). Loaded Objects now: 5445.
+Memory consumption went from 180.8 MB to 176.3 MB.
+Total: 8.597200 ms (FindLiveObjects: 0.749700 ms CreateObjectMapping: 1.826600 ms MarkObjects: 4.236100 ms  DeleteObjects: 1.782000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 957.773654 seconds.
+  path: Assets/Objects and materials/SKy.mat
+  artifactKey: Guid(44afe229263ab234187b0c4f71445188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects and materials/SKy.mat using Guid(44afe229263ab234187b0c4f71445188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef36f2c4ca2caec53ab3453d0ea5f036') in 1.277727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.664 seconds
+Refreshing native plugins compatible for Editor in 6.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 103.844 seconds
+Domain Reload Profiling: 106500ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (2285ms)
+		LoadAssemblies (2437ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (5248ms)
+	FinalizeReload (103845ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1330ms)
+		SetupLoadedEditorAssemblies (534ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (249ms)
-			ProcessInitializeOnLoadAttributes (858ms)
-			ProcessInitializeOnLoadMethodAttributes (154ms)
-			AfterProcessingInitializeOnLoad (36ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 15.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4775 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (1.8 MB). Loaded Objects now: 5301.
-Memory consumption went from 169.5 MB to 167.7 MB.
-Total: 8.228000 ms (FindLiveObjects: 0.522500 ms CreateObjectMapping: 0.480600 ms MarkObjects: 6.762700 ms  DeleteObjects: 0.460900 ms)
+Unloading 4904 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (4.5 MB). Loaded Objects now: 5448.
+Memory consumption went from 180.6 MB to 176.1 MB.
+Total: 47.887600 ms (FindLiveObjects: 0.572700 ms CreateObjectMapping: 0.442200 ms MarkObjects: 45.614300 ms  DeleteObjects: 1.256600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.786 seconds
+Refreshing native plugins compatible for Editor in 11.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.953 seconds
+Domain Reload Profiling: 6734ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (529ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (5958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2116ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (268ms)
+			ProcessInitializeOnLoadAttributes (1397ms)
+			ProcessInitializeOnLoadMethodAttributes (352ms)
+			AfterProcessingInitializeOnLoad (64ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (70ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 14.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4905 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (4.5 MB). Loaded Objects now: 5451.
+Memory consumption went from 180.8 MB to 176.4 MB.
+Total: 17.074000 ms (FindLiveObjects: 0.985200 ms CreateObjectMapping: 0.713700 ms MarkObjects: 10.720100 ms  DeleteObjects: 4.652400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1627.102325 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/Animations.fbx
+  artifactKey: Guid(d55a3dafe23105e409ee70d6605cbd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/Animations.fbx using Guid(d55a3dafe23105e409ee70d6605cbd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18030d7ebbee935e98f7d7573797ce0b') in 0.367667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/Animations_Static.fbx
+  artifactKey: Guid(7039333667ba45840b1411867278ee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/Animations_Static.fbx using Guid(7039333667ba45840b1411867278ee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38b8140d04e48d99022d3a85ca16fe6') in 0.026715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/Mask_LowerBody.mask
+  artifactKey: Guid(f34433e648b38134b89fe27b9e6955cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/Mask_LowerBody.mask using Guid(f34433e648b38134b89fe27b9e6955cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494deab8f0fad2572b381f4b9adbc7b4') in 0.003965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/Mask_Head.mask
+  artifactKey: Guid(f4bf3f6dc42479e47b1fd0e457094fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/Mask_Head.mask using Guid(f4bf3f6dc42479e47b1fd0e457094fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db22286219f0f936c8eb98757b4fc935') in 0.022198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/Mask_UpperBody.mask
+  artifactKey: Guid(c1d1c130e45b5b547a11583f67145ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/Mask_UpperBody.mask using Guid(c1d1c130e45b5b547a11583f67145ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97c72da6f0bf93ce75f3fd94f8e0846') in 0.001670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/Mask_Body.mask
+  artifactKey: Guid(4244c57bb194c0e48861fc59aaf8214d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/Mask_Body.mask using Guid(4244c57bb194c0e48861fc59aaf8214d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa41903e12d215ef00abbdc650ccb0c') in 0.003476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/Animations_IK.fbx
+  artifactKey: Guid(6e4b26fde7f77c046bed3bb532de26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/Animations_IK.fbx using Guid(6e4b26fde7f77c046bed3bb532de26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c30efd76c0e3724d23335a50de7b1a') in 0.049723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/Mask_Upper.mask
+  artifactKey: Guid(8f022796fa5205e4483f40dd7b373bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/Mask_Upper.mask using Guid(8f022796fa5205e4483f40dd7b373bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41d77d97fc755d92d3b5533fc8bea79') in 0.002237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.749900 seconds.
+  path: Assets/SimplePeople/SimplePeople/Animations/SimpleCharacter_5.0.controller
+  artifactKey: Guid(1de385df2ff713a41adfcbbb63b8af91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePeople/SimplePeople/Animations/SimpleCharacter_5.0.controller using Guid(1de385df2ff713a41adfcbbb63b8af91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da4bb3ba818c414d2362f691e9b3428') in 0.084477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 306
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.860 seconds
+Refreshing native plugins compatible for Editor in 6.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.075 seconds
+Domain Reload Profiling: 5923ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (565ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (5076ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (280ms)
+			ProcessInitializeOnLoadAttributes (935ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (42ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 16.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4904 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (4.5 MB). Loaded Objects now: 5454.
+Memory consumption went from 180.6 MB to 176.2 MB.
+Total: 11.687000 ms (FindLiveObjects: 0.490400 ms CreateObjectMapping: 2.446400 ms MarkObjects: 6.193800 ms  DeleteObjects: 2.555100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
