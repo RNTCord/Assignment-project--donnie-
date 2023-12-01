@@ -54,11 +54,11 @@ public class gamecontroller : MonoBehaviour
 
         if (playerscore >= 100)
         {
-            scoretext.text = "Score:100 (you win, press W to go to next level.)";
-            if (Input.GetKeyDown(KeyCode.W))
+            //scoretext.text = "Score:100 (you win, press W to go to next level.)";
+            //if (Input.GetKeyDown(KeyCode.W))
             {
-                playerlevel += 1;
-                playerscore -= 100;
+               // playerlevel += 1;
+               // playerscore -= 100;
             }
         }
         
@@ -106,5 +106,11 @@ public class gamecontroller : MonoBehaviour
     void takedamage(float damage)
     {
         health -= 10;
+    }
+
+    public void IncreaseScore(int points)
+    {
+        //score += points;
+        //Debug.Log("Score: " + score);
     }
 }

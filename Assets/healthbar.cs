@@ -24,7 +24,15 @@ public class healthbar : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.L))
         {
-            health -= 10;
+            takeDamage(10);
         }
     }   
+
+    void takeDamage(float damage)
+    {
+        health -= damage;
+    }
+
+
+
 }

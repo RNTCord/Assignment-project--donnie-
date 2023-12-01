@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Collections;
 using UnityEngine;
 
 [AddComponentMenu("Nokobot/Modern Guns/Simple Shoot")]
@@ -14,11 +15,12 @@ public class SimpleShoot : MonoBehaviour
     [SerializeField] private Animator gunAnimator;
     [SerializeField] private Transform barrelLocation;
     [SerializeField] private Transform casingExitLocation;
+    private bool hasHit = false;
 
     [Header("Settings")]
-    [Tooltip("Specify time to destory the casing object")] [SerializeField] private float destroyTimer = 2f;
-    [Tooltip("Bullet Speed")] [SerializeField] private float shotPower = 500f;
-    [Tooltip("Casing Ejection Speed")] [SerializeField] private float ejectPower = 150f;
+    [Tooltip("Specify time to destory the casing object")][SerializeField] private float destroyTimer = 2f;
+    [Tooltip("Bullet Speed")][SerializeField] private float shotPower = 500f;
+    [Tooltip("Casing Ejection Speed")][SerializeField] private float ejectPower = 150f;
 
 
     void Start()
@@ -81,5 +83,25 @@ public class SimpleShoot : MonoBehaviour
         //Destroy casing after X seconds
         Destroy(tempCasing, destroyTimer);
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (!hasHit)
+        {
+            // Check if the collision is with an enemy
+            agentscript enemy = collision.gameObject.GetComponent<agentscript>();
 
+            if (enemy != null)
+            {
+                // Bullet has hit an enemy
+                hasHit = true;
+
+                // Apply damage or eliminate the enemy
+                enemy.TakeDamage();
+
+                // Destroy the bullet
+                Destroy(gameObject);
+            }
+        }
+
+    }
 }
