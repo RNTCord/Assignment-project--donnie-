@@ -509,6 +509,7 @@ MonoBehaviour:
   goal: {fileID: 0}
   maxHealth: 100
   gameController: {fileID: 0}
+  simpleshoot: {fileID: 0}
 --- !u!1001 &209921745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1839,6 +1840,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 701251716bc802e4984622be5a7f39cb, type: 3}
+--- !u!114 &684093585 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4283532953363553607, guid: 37e98970f8baf7647b735d9036006f0d, type: 3}
+  m_PrefabInstance: {fileID: 1007076860}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be84e4d7829855419c06b94e56bd135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &692233697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2490,6 +2502,7 @@ MonoBehaviour:
   goal: {fileID: 526338571}
   maxHealth: 100
   gameController: {fileID: 781088304}
+  simpleshoot: {fileID: 684093585}
 --- !u!95 &793269113 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 6d9c488c3a71ac54bb7f42a32e6d3c38, type: 3}
@@ -3987,6 +4000,7 @@ MonoBehaviour:
   goal: {fileID: 526338571}
   maxHealth: 100
   gameController: {fileID: 781088304}
+  simpleshoot: {fileID: 0}
 --- !u!95 &1451696191 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: b186f9485a0828b468f98fe846ae1a68, type: 3}
@@ -5158,6 +5172,7 @@ MonoBehaviour:
   goal: {fileID: 0}
   maxHealth: 100
   gameController: {fileID: 0}
+  simpleshoot: {fileID: 0}
 --- !u!1 &2103971068
 GameObject:
   m_ObjectHideFlags: 0

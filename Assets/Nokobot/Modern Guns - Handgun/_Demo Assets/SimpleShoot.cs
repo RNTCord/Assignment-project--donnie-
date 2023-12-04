@@ -88,18 +88,18 @@ public class SimpleShoot : MonoBehaviour
         if (!hasHit)
         {
             // Check if the collision is with an enemy
-            agentscript enemy = collision.gameObject.GetComponent<agentscript>();
+            //agentscript enemy = collision.gameObject.GetComponent<agentscript>();
 
-            if (enemy != null)
+            //if (enemy != null)
             {
                 // Bullet has hit an enemy
-                hasHit = true;
+                //hasHit = true;
 
                 // Apply damage or eliminate the enemy
-                enemy.TakeDamage();
+                //enemy.TakeDamage();
 
                 // Destroy the bullet
-                Destroy(gameObject);
+                //Destroy(gameObject);
             }
         }
 

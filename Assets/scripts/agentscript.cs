@@ -16,6 +16,7 @@ public class agentscript : MonoBehaviour
     private bool isAlive = true;
 
     public gamecontroller gameController;
+    public SimpleShoot simpleshoot;
 
 
     // Start is called before the first frame update
@@ -41,37 +42,38 @@ public class agentscript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //if (other.tag == "bullet")
+        if (other.tag == "bullet")
         {
             
             gameController.AddScore(10);
 
-            //animator.SetInteger("DeathType_int", 1);
-            //animator.SetBool("Death_b", true);
-           // isDead = true;
-            //agent.speed = 0;
+            currentHealth -= 50;
+            
 
 
 
+
+           
         }
-    }
-    public void TakeDamage()
-    {
-        // Implement damage logic here
-        currentHealth -= 10; // Example: reduce health by 10
-
         if (currentHealth <= 0)
         {
-            Die();
+            isDead = true;
+
         }
+        if (isDead == true)
+        {
+            animator.SetInteger("DeathType_int", 1);
+            animator.SetBool("Death_b", true);
+            agent.speed = 0;
+            Destroy(other);
+            
+            agent.speed = 0;
+        }
+        
     }
-    void Die()
-    {
-        // Implement any death effects or logic here
-        Destroy(gameObject);
-    }
-    public bool IsAlive()
-    {
-        return isAlive;
-    }
+
+    
+
+
+
 }
